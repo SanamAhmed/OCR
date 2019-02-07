@@ -21,3 +21,5 @@ Instructions:
 
 5. TEXT Output will show on console for this version
 
+Happy OCRing :)
+
