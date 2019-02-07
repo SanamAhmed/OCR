@@ -28,5 +28,6 @@ These instructions will get you a copy of the project up and running on your loc
 5. Number of files will be created, same as the number of pages in document.
 
 5. TEXT Output will show on console for this version
+
+Happy OCRing :)
 ```
-## Happy OCRing :)
