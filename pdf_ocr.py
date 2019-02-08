@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import sys
 from PyPDF2 import PdfFileReader, PdfFileWriter
 
 def ocr_space_file(filename, overlay=False, api_key='<YOUR_API_KEY>', language='eng'):
@@ -27,6 +28,7 @@ def ocr_space_file(filename, overlay=False, api_key='<YOUR_API_KEY>', language='
                           )
     m = r.content.decode()
     jsonstr = json.loads(m)
+    sys.stdout = open('output', 'a+')
     print(jsonstr["ParsedResults"][0]["ParsedText"])
     
 
