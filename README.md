@@ -23,11 +23,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 3. Enter your PDF file path to 'path' variable
 
-4. RUN Program
+4. RUN Program, on shell or through some IDE (e-g, spyder)
 
 5. Number of files will be created, same as the number of pages in document.
 
-5. TEXT Output will show on console for this version
+5. Text File with output will be created.
 
 Happy OCRing :)
 ```
